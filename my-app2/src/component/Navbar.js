@@ -58,8 +58,14 @@ export default function Navbar() {
             <img
               src={logo}
           
-              style={{ maxWidth: '80px',marginTop:'30px',marginBlock:'-60px' }}
+              style={{ maxWidth: '80px',marginTop:'3px',marginBlock:'-60px' }}
               alt=''
               loading='lazy'
               
-      
+            />
+          </MDBNavbarBrand>
+        </MDBContainer>
+      </MDBNavbar>
+    </>
+  );
+}
