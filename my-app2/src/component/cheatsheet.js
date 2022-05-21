@@ -1,37 +1,42 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarback text-gold fixed-top">
-            <div id="nav" class="container-fluid">
-              <div class="row">
-                <div class="col-md-12">  
-                    <button class="navbar-toggler text-gold" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
-                      </button>
-                <div class="collapse navbar-collapse" id="navbarExample01">
-                  <ul class="navbar-nav me-auto mb-lg-0">
-                    <li class="nav-item active">
-                      <a class="nav-link" aria-current="page" href="#template_features">Template Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#product_images">Product Images</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#log_updates">Log Updates</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" target="_blank" href="https://dana-team.com/support">Support</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#buy_templates">Buy Templates</a>
-                    </li>
-                  </ul>
-                </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-3">
-                  <a class="navbar-brand" href="">
-                    <img class="logo" src="assets/img/logo.png"/>
-                  </a>
-                </div>
-              </div>
-            </div>
-        </nav>
+<section>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center" style="margin-top: 279px;"> 
+            <h1 class="mb-3 title-tophome">Aban Template</h1>
+        </div>
+    </div>
+</div>
+<div class="top-slide">
+    <p class="title-top-slide">
+      Aban
+      <br/>
+      Template
+    </p>
+    <div class="body-slide">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+    </div>
+</div>
+<div id="particles-js" class="bg-image cover-contact">
+    
+</div>
+            
+            <ul class="main-nav">
+                <li class="item">   
+                  <img class="bg" data-flip-id="img1" src="assets/img/home-home-top.png"/>
+                </li>
+                <li class="item">
+                  <img class="bg" data-flip-id="img2" src="assets/img/contact-us-home-top.png"/>
+                </li>
+                <li class="item">
+                  <img class="bg" data-flip-id="img3" src="assets/img/article-singlepage-home-top.png"/>
+                </li>
+                <li class="item">
+                  <img class="bg" data-flip-id="img4" src="assets/img/about-us-home-top.png"/>
+                </li>
+                <li class="item">
+                  <img class="bg" data-flip-id="img5" src="assets/img/dashboard-home-top.png"/>
+                </li>
+            </ul>
+</section>

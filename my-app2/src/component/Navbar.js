@@ -21,7 +21,7 @@ export default function Navbar() {
     <>
       <MDBNavbar expand='lg' fixed='top'   bgColor='dark'  >
         <MDBContainer fluid>
-          <MDBNavbarBrand href='#'></MDBNavbarBrand>
+         
           <MDBNavbarToggler
             type='button'
             data-target='#navbarTogglerDemo02'
@@ -33,8 +33,9 @@ export default function Navbar() {
           >
             <MDBIcon icon='bars' fas />
           </MDBNavbarToggler>
+          
           <MDBCollapse navbar show={showNavNoTogglerSecond}>
-            <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 text-gold' >
+            <MDBNavbarNav right className='mr-auto mb-2 mb-lg-0 text-gold' >
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#template_features' cursor='pointer' className='text-gold '>
                 Template Features
@@ -54,16 +55,20 @@ export default function Navbar() {
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
-            <MDBNavbarBrand href='#'>
-            <img
+          <MDBNavbarBrand href='#'>
+
+
+          <img
               src={logo}
           
-              style={{ maxWidth: '80px',marginTop:'3px',marginBlock:'-60px' }}
+              style={{ maxWidth: '80px',marginTop:'30px',marginBlock:'-60px' }}
               alt=''
               loading='lazy'
-              
             />
+          
           </MDBNavbarBrand>
+            
+        
         </MDBContainer>
       </MDBNavbar>
     </>
