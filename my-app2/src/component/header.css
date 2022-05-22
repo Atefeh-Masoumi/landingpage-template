@@ -1,11 +1,12 @@
 
 .particle{
-    
     z-index: -1;
-    /* margin-top: -279px; */
+    margin-top: -79px;
+    width: 100%;
+    
 }
 .cover-contact {
-    height:82vh;
+    height:82vh !important;
 }
 /* circle spiner */
 .top-slide {
