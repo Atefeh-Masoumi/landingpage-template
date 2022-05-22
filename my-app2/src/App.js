@@ -6,11 +6,11 @@ import Body from './component/Body';
 
 function App() {
   return (
-    <MDBContainer fluid>
+      <>
       <Navbar/>
       <Header/>
       <Body/>
-    </MDBContainer>
+      </>
   );
 }
 

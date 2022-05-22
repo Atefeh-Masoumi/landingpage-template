@@ -1,0 +1,28 @@
+.mb-5-5 {
+    margin-bottom: 2.7rem!important;
+}
+.box-shadow2 {
+    background-color: #fffada63;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.box-features i {
+    background: #484848;
+    color: #fdf8d8;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.border_title {
+    background-color: #ffd700;
+    width: 95px;
+    height: 5px;
+    top: -10px;
+    left: 1px;
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+}

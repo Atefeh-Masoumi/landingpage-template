@@ -46,7 +46,7 @@ const Header = ()=>{
         </div>
 
 
-        <div className="bg-image particle cover-contact">
+        <div className="bg-image particle relative">
               <Particles
             id="tsparticles"
             init={particlesInit}
@@ -144,10 +144,7 @@ const Header = ()=>{
                             </li>
         </ul>
         
-          <div className="absolute">
-
-          <Svgbotom className="relative"/>
-          </div>
+          
         </div>
     )
 }
