@@ -3,6 +3,7 @@ import { MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
 import Navbar from './component/Navbar';
 import Header from './component/header';
 import Body from './component/Body';
+import ProductImage from './component/productImage.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Body/>
+      <ProductImage/>
       </>
   );
 }

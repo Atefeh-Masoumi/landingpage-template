@@ -13,3 +13,13 @@ code {
 .text-gold {
   color: #ffd700 !important;
 }
+.border_title {
+  background-color: #ffd700;
+  width: 95px;
+  height: 5px;
+  top: -10px;
+  left: 1px;
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+}

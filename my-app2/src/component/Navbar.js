@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-      <MDBNavbar expand='lg' fixed='top'   bgColor='dark'  >
+      <MDBNavbar expand='lg' fixed='top'   bgColor='dark' className="p-1" >
         <MDBContainer fluid>
          
           <MDBNavbarToggler
@@ -35,7 +35,7 @@ export default function Navbar() {
           </MDBNavbarToggler>
           
           <MDBCollapse navbar show={showNavNoTogglerSecond}>
-            <MDBNavbarNav right className='mr-auto mb-2 mb-lg-0 text-gold' >
+            <MDBNavbarNav right className='mr-auto mb-2 mb-lg-0  text-gold' >
               <MDBNavbarItem>
                 <MDBNavbarLink active aria-current='page' href='#template_features' cursor='pointer' className='text-gold '>
                 Template Features
@@ -55,13 +55,13 @@ export default function Navbar() {
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
-          <MDBNavbarBrand href='#'>
+          <MDBNavbarBrand href='#' className='mt-2'>
 
 
           <img
               src={logo}
           
-              style={{ maxWidth: '80px',marginTop:'30px',marginBlock:'-60px' }}
+              style={{ maxWidth: '80px',marginBlock:'-60px' , marginTop:"-3px"}}
               alt=''
               loading='lazy'
             />
