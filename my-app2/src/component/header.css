@@ -2,10 +2,10 @@
 .particle{
     
     z-index: -1;
-    margin-top: -279px;
+    /* margin-top: -279px; */
 }
 .cover-contact {
-    height: 60vh;
+    height:82vh;
 }
 /* circle spiner */
 .top-slide {
@@ -14,13 +14,14 @@
     right: 0;
     left: 0;
     z-index: 99;
+  
 }
 
 .title-top-slide {
-    font: 50px/1.2 'Courgette', cursive;
+    font: 50px/1.2  cursive;
     color: #fdf8d8;
     text-align: center;
-    top: 78px;
+    top: 150px;
     left: 22%;
     z-index: 1;
     position: absolute;
@@ -30,9 +31,11 @@
     position: absolute;
     left: 0;
     right: 0;
+    top: 98px;
 }
 .circle-1 {
     background: #8a887c;
+    /* background: #99854B; */
     border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
     animation: border-animation 6s infinite linear;
 }
@@ -42,18 +45,15 @@
     animation: border-animation 4s infinite linear;
 }
 .circle-3 {
-    background: #fdf8d8;
+    /* background: #fdf8d8; */
+    background: #82681E;
     border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
     animation: border-animation 3s infinite linear;
 }
 @keyframes border-animation {
     to { transform: rotate(360deg); }
   }
-.body-slide {
-    position: absolute;
-    left: 0;
-    right: 0;
-}
+
 .body-slide> div{
     position: absolute;
   }
@@ -62,7 +62,7 @@
     width: 280px;
     height: 300px;
     left: 20%;
-    mix-blend-mode: multiply;
+    mix-blend-mode: normal;
 }
 
 .bg-image {
@@ -100,6 +100,10 @@
     background: #000;
     transform: rotate(312deg);
     transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
     margin: -100px;
     overflow: hidden;
     /* opacity: 0.6; */
@@ -130,5 +134,5 @@
     transform: scale(1.2);
     /* translateX(1%); */
     z-index: 99;
-    transform: rotate(312deg);
+    
 }

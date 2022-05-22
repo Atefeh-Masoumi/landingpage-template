@@ -1,4 +1,4 @@
-
+import {ReactComponent as Svgbotom} from './SvgBot.svg';
 import Particles from "react-tsparticles";
 import './header.css';
 import { loadFull } from "tsparticles";
@@ -7,6 +7,7 @@ import img2 from '../assets/img/contact-us-home-top.png';
 import img3 from "../assets/img/article-singlepage-home-top.png";
 import img4 from "../assets/img/about-us-home-top.png";
 import img5 from "../assets/img/dashboard-home-top.png";
+
 const Header = ()=>{
   const particlesInit = async (main) => {
     console.log(main);
@@ -22,15 +23,15 @@ const Header = ()=>{
   };
 
     return(
-        <>
-        <div className="container">
+        <div className="cover-contact">
+        {/* <div className="container">
           <div className="row justify-content-center ">
           <div className="col-md-4 text-center" style={{marginTop: '279px'}}> 
               <h1 className="mb-3 title-tophome">Aban Template</h1>
             </div>
           </div>
 
-        </div>
+        </div> */}
         <div classNmae="top-slide">
                 <p className="title-top-slide">
                   Aban
@@ -45,7 +46,7 @@ const Header = ()=>{
         </div>
 
 
-        <div className="bg-image cover-contact particle">
+        <div className="bg-image particle cover-contact">
               <Particles
             id="tsparticles"
             init={particlesInit}
@@ -100,7 +101,7 @@ const Header = ()=>{
                     default: "bounce",
                   },
                   random: false,
-                  speed: 2,
+                  speed: 1,
                   straight: false,
                 },
                 number: {
@@ -141,8 +142,13 @@ const Header = ()=>{
                             <li class="item">
                               <img class="bg" data-flip-id="img5" src={img5}/>
                             </li>
-                        </ul>
-        </>
+        </ul>
+        
+          <div className="absolute">
+
+          <Svgbotom className="relative"/>
+          </div>
+        </div>
     )
 }
 
