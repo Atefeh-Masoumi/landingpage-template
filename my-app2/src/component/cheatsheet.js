@@ -24,7 +24,7 @@
             
             <ul class="main-nav">
                 <li class="item">   
-                  <img class="bg" data-flip-id="img1" src="assets/img/home-home-top.png"/>
+                  <img class="bg " data-flip-id="img1" src="assets/img/home-home-top.png"/>
                 </li>
                 <li class="item">
                   <img class="bg" data-flip-id="img2" src="assets/img/contact-us-home-top.png"/>

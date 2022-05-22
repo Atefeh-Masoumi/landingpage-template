@@ -1,0 +1,134 @@
+
+.particle{
+    
+    z-index: -1;
+    margin-top: -279px;
+}
+.cover-contact {
+    height: 60vh;
+}
+/* circle spiner */
+.top-slide {
+    position: absolute;
+    margin: -165px auto;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.title-top-slide {
+    font: 50px/1.2 'Courgette', cursive;
+    color: #fdf8d8;
+    text-align: center;
+    top: 78px;
+    left: 22%;
+    z-index: 1;
+    position: absolute;
+}
+
+.body-slide {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.circle-1 {
+    background: #8a887c;
+    border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+    animation: border-animation 6s infinite linear;
+}
+.circle-2 {
+    background: #ffd700;
+    border-radius: 80% 30% 50% 50%/50%;
+    animation: border-animation 4s infinite linear;
+}
+.circle-3 {
+    background: #fdf8d8;
+    border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+    animation: border-animation 3s infinite linear;
+}
+@keyframes border-animation {
+    to { transform: rotate(360deg); }
+  }
+.body-slide {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.body-slide> div{
+    position: absolute;
+  }
+  
+.body-slide div {
+    width: 280px;
+    height: 300px;
+    left: 20%;
+    mix-blend-mode: multiply;
+}
+
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: cover;
+    background-position: 50%;
+    margin-top: -279px;
+}
+
+/* slider */
+.main-nav {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 150px;
+    right: 0;
+    left: auto;
+}
+.main-nav li.item:first-child {
+    top: 0;
+    left: 0;
+}
+.main-nav li {
+    list-style: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #000;
+    transform: rotate(312deg);
+    transition: 0.5s;
+    margin: -100px;
+    overflow: hidden;
+    /* opacity: 0.6; */
+    border-radius: 15px;
+}
+.main-nav li .bg {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.main-nav li.item:nth-child(2) {
+    bottom: 0;
+    left: 25%;
+}
+.main-nav li.item:nth-child(3) {
+    top: 0;
+    left: 50%;
+}
+.main-nav li.item:nth-child(4) {
+    bottom: 0;
+    left: 75%;
+}
+.main-nav li.item:last-child {
+    top: 0;
+    left: 100%;
+}
+.main-nav li:hover {
+    transform: scale(1.2);
+    /* translateX(1%); */
+    z-index: 99;
+    transform: rotate(312deg);
+}
