@@ -16,13 +16,3 @@
     font-size: xx-large;
     margin-bottom: 20px;
 }
-.border_title {
-    background-color: #ffd700;
-    width: 95px;
-    height: 5px;
-    top: -10px;
-    left: 1px;
-    font-size: 0;
-    display: inline-block;
-    position: relative;
-}
