@@ -1,11 +1,11 @@
 /* startfont */ 
-/* @font-face {
+@font-face {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/Montserrat-Regular.woff');
+	src: url('../assets/font/Montserrat-Regular.woff');
 }
-@font-face {
+/* @font-face {
 	font-family: Montserrat-Bold;
 	font-style: normal;
 	font-weight: bold;
@@ -59,7 +59,7 @@ body{
     margin-bottom: -60px;
 }
 section{
-    margin: 25px 0 25px 0;
+  margin: 25px 0 25px 0;
 }
 
 .box-shadow2 {
@@ -279,6 +279,7 @@ section{
     width: 100%;
     color: #f7f2d3;
   }
+
   .text-title-box .card-title{
     font-weight: bold;
     font-size: 19px;
@@ -484,16 +485,14 @@ section{
 }
 
 
-
-
 @media screen and (max-width:375px) {
     .body-modal img {
-        bottom: -750px;
+      bottom: -750px;
     }
 }
 @media screen and (max-width:450px) {
     .body-modal img {
-        bottom: -950px;
+      bottom: -950px;
     }
 }
 
@@ -663,9 +662,8 @@ section{
 
 /* */
 
-@import url('https://fonts.googleapis.com/css?family=Courgette');
 
-.top-slide {
+/* .top-slide {
     position: absolute;
     margin: -165px auto;
     right: 0;
@@ -686,7 +684,7 @@ section{
 }
 
 .title-top-slide {
-    font: 50px/1.2 'Courgette', cursive;
+    font: 50px/1.2 , cursive;
     color: #fdf8d8;
     text-align: center;
     top: 78px;
@@ -697,11 +695,11 @@ section{
   width: 280px;
   height: 300px;
   left: 20%;
-  mix-blend-mode: multiply;
+  mix-blend-mode: normal;
 }
 
 /* Circles */
-.circle-1 {
+/* .circle-1 {
   background: #8a887c;
   border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
   animation: border-animation 6s infinite linear;
@@ -718,9 +716,10 @@ section{
 }
 
 /* Animation */
-@keyframes border-animation {
+
+/* @keyframes border-animation {
   to { transform: rotate(360deg); }
-}
+}  */
 
 /* */
 
@@ -729,7 +728,7 @@ section{
 
 
  
-.main-nav {
+/* .main-nav {
     position: absolute;
     top: 42%;
     left: 50%;
@@ -740,9 +739,9 @@ section{
     height: 150px;
     right: 0;
     left: auto;
-  }
+  } */
   
-  .main-nav li {
+  /* .main-nav li {
     list-style: none;
     position: absolute;
     width: 200px;
@@ -753,46 +752,46 @@ section{
     margin: -100px;
     overflow: hidden;
     /*opacity: 0.6;*/
-    border-radius: 15px;
-  }
-  
-  .main-nav li:hover {
-    transform: scale(1.2) /*translateX(1%)*/;
+    /* border-radius: 15px;
+  } */
+   
+  /* .main-nav li:hover {
+    transform: scale(1.2) ;
       z-index: 99;
   }
-  
-  .main-nav li.item:first-child {
+   */
+  /* .main-nav li.item:first-child {
     top: 0;
     left: 0;
-  }
+  } */
   
-  .main-nav li.item:nth-child(2) {
+  /* .main-nav li.item:nth-child(2) {
     bottom: 0;
     left: 25%;
-  }
+  } */
   
-  .main-nav li.item:nth-child(3) {
+  /* .main-nav li.item:nth-child(3) {
     top: 0;
     left: 50%;
   }
-  
-  .main-nav li.item:nth-child(4) {
+   */
+  /* .main-nav li.item:nth-child(4) {
     bottom: 0;
     left: 75%;
-  }
-  
+  } */
+/*   
   .main-nav li.item:last-child {
     top: 0;
     left: 100%;
-  }
+  } */
   
-  .main-nav li .bg {
+  /* .main-nav li .bg {
     width: 100%;
     height: 100%;
     transform: scale(1.1);
-  }
+  } */
   
-  .description {
+  /* .description {
     color: #fefefe;
     position: absolute;
     top: 0;
@@ -800,17 +799,17 @@ section{
     width: 145px;
     font-size: 0.9rem;
     height: 100%;
-  }
+  } */
 
 /*  */
 
-#particles-js{
+/* #particles-js{
     z-index: -1;
 }
 
 .svgtop{
   margin-top: -9%;
-}
+} */
 
 @media screen and (max-width:1667px) {
     .top-slide{
