@@ -38,25 +38,25 @@ const ProductImage=()=>{
                             
                         </div>
                         {/* <!-- Modal --> */}
-        <MDBModal show={scrollableModal} setShow={setScrollableModal} tabIndex='-1'className="fade">
+        <MDBModal show={scrollableModal} setShow={setScrollableModal} tabIndex='-1'className="modal fade">
         <MDBModalDialog scrollable className=" modal-lg">
           <MDBModalContent className=" modal-custom">
             <MDBModalHeader className=" modal-header-custom">
-              <MDBModalTitle>Modal title</MDBModalTitle>
+              <MDBModalTitle>Home Page</MDBModalTitle>
               <MDBBtn
                 className='btn-close'
                 color='none'
                 onClick={() => setScrollableModal(!scrollableModal)}
               ></MDBBtn>
             </MDBModalHeader>
-            <MDBModalBody className=" body-modal1">
+            <MDBModalBody  className="modal-body body-modal1 ">
               
             <div id="change_iconarrow" className="body-modal modal1">
                 <div id="change_iconarrow21" className="card-body text-center text-title-box2">
                 <svg className="arrows" title="click down to view" data-mdb-toggle="tooltip">
-            <path stroke= "#f7f2d3" className="a1" d="M0 0 L30 32 L60 0"></path>
-            <path stroke= "#f7f2d3" className="a2" d="M0 20 L30 52 L60 20"></path>
-            <path stroke= "#f7f2d3" className="a3" d="M0 40 L30 72 L60 40"></path></svg>
+                  <path stroke= "#f7f2d3" className="a1" d="M0 0 L30 32 L60 0"></path>
+                  <path stroke= "#f7f2d3" className="a2" d="M0 20 L30 52 L60 20"></path>
+                  <path stroke= "#f7f2d3" className="a3" d="M0 40 L30 72 L60 40"></path></svg>
                 </div>
                 <a target="_blank" href={home}>
                     <img src={home}/>

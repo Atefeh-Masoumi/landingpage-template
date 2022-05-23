@@ -81,14 +81,7 @@
     background-color: #8a887c;
     border-radius: 0 0 0.5rem 0;
 }
-.arrows {
-    width: 60px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 20px;
-}
+
 .body-modal {
     display: block;
     width: 100%;
@@ -149,7 +142,7 @@
     border-radius: 0 0 10px 10px;
     display: block;
 }
-.modal-footer-custom:after {
+.modal-footer-custom::after {
     content: '';
     width: 88.6%;
     height: 9px;
@@ -160,4 +153,159 @@
     left: 0px;
     position: absolute;
     display: block;
+}
+/* arrow  animatiotion */
+.arrows {
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+}
+
+.arrows path {
+    stroke: #2994D1;
+    fill: transparent;
+    stroke-width: 5px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+    stroke: #f7f2d3;
+}
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-0.75s;
+	-webkit-animation-delay:-0.75s; /* Safari Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.50s;
+	-webkit-animation-delay:-0.50s; /* Safari Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:-0.25s;
+	-webkit-animation-delay:-0.25s; /* Safari Chrome */
+}
+.arrows path.a4 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari Chrome */
+}
+
+
+/* hover image */
+
+.screen {
+    display: block;
+    /*width: 300px;*/
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+.screen img {
+    bottom: -1210px;
+    width: 100%;
+    height: auto;
+    position: initial;
+    z-index: 0;
+  margin:0;
+  padding:0;
+    -webkit-transition: top 11s;
+    -moz-transition: top 11s;
+    -ms-transition: top 11s;
+    -o-transition: top 11s;
+    transition: bottom 11s;
+}
+
+.screen:hover img {
+  bottom: 0;
+  -webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+  transition: all 11s;
+} 
+.screen2:hover img {
+  bottom: 0;
+  -webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+  transition: all 11s;
+} 
+@-webkit-keyframes remove{
+    0% {opacity: 1;
+        max-height: 1000px;}
+    99.9% {opacity: 0;
+           max-height: 0px;
+           padding: 0 100px;}
+    100% {opacity: 0;
+          max-height: 0;
+          padding: 0px 0px;
+          animation: poof 0.1s linear 0s 1;
+    -webkit-animation: poof 0.1s linear 0s 1;}
+  }
+  
+  @keyframes remove{
+    0% {opacity: 1;
+    
+    margin-top:0;
+    animation: poof .1s linear 0s 1;
+    -webkit-animation: poof .1s linear 0s 1;}
+    99.9% {opacity: 0;
+           max-height: 0px;
+           margin-top:100px;
+    animation: poof .1s linear 0s 1;
+    -webkit-animation: poof .1s linear 0s 1;}
+    100% {opacity: 0;
+          max-height: 0;
+       margin-top:150px;
+          animation: poof .1s linear 0s 1;
+    -webkit-animation: poof .1s linear 0s 1;}
+  }
+  
+  @-webkit-keyframes poof{
+    from {display: flex;}
+    to {display: none;}
+  }
+  
+  @keyframes poof{
+    from {display: flex;}
+    to {display: none;}
+  }
+  /* end click remove class iconarrow modal*/
+
+
+/* Image scroll on hover */
+.hover-item-box .hover-item{
+    transition: transform .3s ease-in-out;
+    transform: scale(1);
+    transform-origin: 100% 0;
+    /*transform-origin: 100% 0;*/
+    transform-origin: 50%;
+  }
+  .hover-item-box:hover .hover-item{
+      transform: scale(1.2) /*translateX(1%)*/;
+      z-index: 99;
+    }
+/* end hover item */
+  .box-shadow1 {
+    background-color: #fffada63;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 7%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    border-radius: 15px;
 }
