@@ -6,7 +6,7 @@
     
 }
 .cover-contact {
-    height:82vh !important;
+    height:55vh !important;
 }
 /* circle spiner */
 .top-slide {
@@ -138,8 +138,14 @@
     
 }
 
-@media screen and (max-width:1600px) {
-    .top-slide .body-slide .title-top-slide .circle-1 .circle-2 .circle-3{
+@media screen and (max-width:1660px) {
+    .top-slide  .circle-1 .circle-2 .circle-3{
+        display: none;
+    }
+    .title-top-slide {
+        display: none;
+    }
+    .body-slide{
         display: none;
     }
     .main-nav{

@@ -138,8 +138,8 @@ const ProductImage=()=>{
 
     return(
         <>
-          <section id="product_images">
-            <div className="container">
+          <section id="product_images" >
+            <div className="container" style={{backgoungColor:'#4f4f4f'}}>
                 <div className="row mb-3">
                     <div className="col-md-12 text-center">
                         <h2 className="text-title">

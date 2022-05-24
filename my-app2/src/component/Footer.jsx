@@ -6,7 +6,7 @@ const Footer=()=>{
         <div>
              <Svgb/>
          </div>
-        <section id="buy_templates" className="py-5">
+        <section id="buy_templates" className="py-5" style={{backgoungColor:'#484848'}}>
             <div className="container">
                 <div className="row text-center">
                     <div className="col-md-12">

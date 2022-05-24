@@ -72,9 +72,7 @@ export default function Navbar() {
         
         </MDBContainer>
       </MDBNavbar>
-      <a class="goclick smooth" href="#">
-        <button type="button" class="btn bubbly-button wow fadeIn ripple-surface-dark" id="btn-back-top" data-ripple-color="dark"><i class="fas fa-chevron-up"></i></button>
-    </a>
+      
     </>
   );
 }

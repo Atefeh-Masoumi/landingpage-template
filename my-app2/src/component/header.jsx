@@ -1,7 +1,9 @@
 import {ReactComponent as Svgbotom} from './SvgBot.svg';
 import Particles from "react-tsparticles";
 import './header.css';
-import'./style.css';
+// import'./style.css';
+
+
 import { loadFull } from "tsparticles";
 import img1 from '../assets/img/home-home-top.png';
 import img2 from '../assets/img/contact-us-home-top.png';
@@ -24,10 +26,10 @@ const Header = ()=>{
   };
 
     return(
-        <div className="">
-           {/* <a class="goclick smooth" href="#">
+        <div className="" style={{backgoungColor:'#484848'}}>
+           <a class="goclick smooth" href="#">
         <button type="button" class="btn bubbly-button wow fadeIn ripple-surface-dark" id="btn-back-top" data-ripple-color="dark"><i class="fas fa-chevron-up"></i></button>
-    </a> */}
+    </a>
         <div className="container">
           <div className="row justify-content-center ">
           <div className="col-md-4 text-center" style={{marginTop: '279px'}}> 

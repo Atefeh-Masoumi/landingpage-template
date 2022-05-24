@@ -812,8 +812,15 @@ section{
 } 
 
 @media screen and (max-width:1667px) {
-    .top-slide{
+    .top-slide   .title-top-slide  .body-slide div{
         display: none;
+    }
+    .body-slide{
+      display: none;
+    }
+    
+    .title-top-slide {
+      color:#4f4f4f;
     }
     .main-nav{
         left: 50%;
