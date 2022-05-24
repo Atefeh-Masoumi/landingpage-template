@@ -8,14 +8,14 @@ const Body =()=>{
         <div className="absolute">
             <Svgbotom className="relative"/>
         </div>
-        <div class="container" style={{marginTop: "100px"}}>
+      <div class="container" style={{marginTop: "100px"}}>
                 <div className="row mb-3">
-                    <div className="col-md-12 text-center">
+                  <div className="col-md-12 text-center">
                         <h2 className="text-title text-white">
                             Template Features
                         </h2>
                         <span className="border_title "></span>
-                    </div>
+                  </div>
                 </div>
                 <div className="row gx-5 justify-content-center mb-5-5">
                   <div className="col-lg-3 col-md-6 mb-5-5">

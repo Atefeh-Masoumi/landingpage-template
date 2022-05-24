@@ -133,21 +133,21 @@ const Header = ()=>{
         </div>
 
         <ul class="main-nav">
-                            <li class="item">   
-                              <img class="bg" data-flip-id="img1" src={img1}/>
-                            </li>
-                            <li class="item">
-                              <img class="bg" data-flip-id="img2" src={img2}/>
-                            </li>
-                            <li class="item">
-                              <img class="bg" data-flip-id="img3" src={img3}/>
-                            </li>
-                            <li class="item">
-                              <img class="bg" data-flip-id="img4" src={img4}/>
-                            </li>
-                            <li class="item">
-                              <img class="bg" data-flip-id="img5" src={img5}/>
-                            </li>
+          <li class="item">   
+            <img class="bg" data-flip-id="img1" src={img1}/>
+          </li>
+          <li class="item">
+            <img class="bg" data-flip-id="img2" src={img2}/>
+          </li>
+          <li class="item">
+            <img class="bg" data-flip-id="img3" src={img3}/>
+          </li>
+          <li class="item">
+            <img class="bg" data-flip-id="img4" src={img4}/>
+          </li>
+          <li class="item">
+            <img class="bg" data-flip-id="img5" src={img5}/>
+          </li>
         </ul>
         
           
