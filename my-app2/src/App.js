@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Navbar from './component/Navbar';
 import Header from './component/header';
 import Body from './component/Body';

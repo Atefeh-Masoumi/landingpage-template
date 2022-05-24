@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/img/logo.png';
-import '../index.css'
+// import '../index.css';
+import './style.css';
 import {
   MDBNavbar,
   MDBContainer,
@@ -20,8 +21,8 @@ export default function Navbar() {
   return (
     <>
       <MDBNavbar expand='lg' fixed='top'   bgColor='dark' className="p-1" >
-        <MDBContainer fluid>
-         
+        <MDBContainer fluid className="col-md-12">
+
           <MDBNavbarToggler
             type='button'
             data-target='#navbarTogglerDemo02'
@@ -71,6 +72,9 @@ export default function Navbar() {
         
         </MDBContainer>
       </MDBNavbar>
+      <a class="goclick smooth" href="#">
+        <button type="button" class="btn bubbly-button wow fadeIn ripple-surface-dark" id="btn-back-top" data-ripple-color="dark"><i class="fas fa-chevron-up"></i></button>
+    </a>
     </>
   );
 }

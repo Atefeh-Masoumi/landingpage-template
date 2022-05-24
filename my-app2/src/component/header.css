@@ -137,3 +137,12 @@
     z-index: 99;
     
 }
+
+@media screen and (max-width:1600px) {
+    .top-slide .body-slide .title-top-slide .circle-1 .circle-2 .circle-3{
+        display: none;
+    }
+    .main-nav{
+        left: 50%;
+    }
+}

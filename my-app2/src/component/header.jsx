@@ -1,6 +1,7 @@
 import {ReactComponent as Svgbotom} from './SvgBot.svg';
 import Particles from "react-tsparticles";
 import './header.css';
+import'./style.css';
 import { loadFull } from "tsparticles";
 import img1 from '../assets/img/home-home-top.png';
 import img2 from '../assets/img/contact-us-home-top.png';
@@ -23,15 +24,18 @@ const Header = ()=>{
   };
 
     return(
-        <div className="cover-contact">
-        {/* <div className="container">
+        <div className="">
+           {/* <a class="goclick smooth" href="#">
+        <button type="button" class="btn bubbly-button wow fadeIn ripple-surface-dark" id="btn-back-top" data-ripple-color="dark"><i class="fas fa-chevron-up"></i></button>
+    </a> */}
+        <div className="container">
           <div className="row justify-content-center ">
           <div className="col-md-4 text-center" style={{marginTop: '279px'}}> 
               <h1 className="mb-3 title-tophome">Aban Template</h1>
             </div>
           </div>
 
-        </div> */}
+        </div>
         <div classNmae="top-slide">
                 <p className="title-top-slide">
                   Aban
@@ -46,7 +50,7 @@ const Header = ()=>{
         </div>
 
 
-        <div className="bg-image particle relative">
+        <div id='particles-js'className="bg-image particle relative cover-contact">
               <Particles
             id="tsparticles"
             init={particlesInit}
